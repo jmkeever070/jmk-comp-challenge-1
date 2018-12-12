@@ -1,0 +1,219 @@
+body {
+
+}
+
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+ 
+
+
+  header {
+    background-color: #21232f;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: flex-end;  
+  }
+
+  .fas {
+    padding-left: 32px;
+    padding-right: 13px;
+  }
+
+  .fa-dna {
+    padding-left: 9px;
+  }
+  .top-corner {
+
+  }
+
+  .adminUser {
+    color: deepskyblue;
+  }
+
+
+  .share-link {
+    color: #ffffff;
+  }
+
+  .gray-links {
+    color: #808080;
+  }
+
+
+  h4 {
+    font-size: 15px;
+  }
+
+  h1 {
+    color: #ffffff;
+    padding-left: 49px;
+  }
+
+  .container {
+   width: 100vw;
+ }
+
+ .main-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 21%;
+  height: 24rem;
+  margin: 1rem;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.66);
+}
+
+.article-bottom {
+  padding: 0px 15px
+}
+
+.rec-name-here {
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 7px;
+}
+
+.date {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+
+.name-of-playlist {
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+.article-top {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-image-1 {
+  background: url(images/alejandro-alvarez-150148-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-2 {
+  background: url(images/alex-blajan-223771-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-3 {
+  background: url(images/ayo-ogunseinde-93181-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-4 {
+  background: url(images/brooke-cagle-274465-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-5 {
+  background: url(images/harps-joseph-719667-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-6 {
+  background: url(images/jack-finnigan-569674-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-7 {
+  background: url(images/rawpixel-256641-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.article-image-8 {
+  background: url(images/sonnie-hiles-674739-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.fa-location-arrow {
+  padding-left: 15px;
+  font-size: 27px;
+  padding-top: 13px;
+  color: lightcoral;
+  height: 37px;
+}
+
+.views {
+  color: lightcoral;
+  height: 23px;
+  margin-bottom: 0px;
+}
+
+.num-of-views {
+  font-size: 33px;
+  margin-top: 0px;
+  margin-left: 1px;
+  margin-right: 0px;
+}
+
+
+.form-link {
+  height: 49px;
+  background-color: lightgrey;
+  color: dimgray;
+  overflow-wrap: break-word;
+}
+
+.playlist {
+  margin-bottom: 4px;
+  font-size: 14px;
+
+}
+
+.name-of-playlist {
+  margin-bottom: 10px;
+}
+
+.attachments {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 3px;
+}
+
+.attach-number {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  margin-left: 16px;
+  font-size: 33px;
+}
+
+@media screen and (max-width: 715px) {
+ .article  {
+  width: 30%;
+}
+
+@media screen and (max-width: 546px) {
+  .article  {
+    width:50%;
+  }
+}
+
+
+
