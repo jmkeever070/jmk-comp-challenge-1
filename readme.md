@@ -1,4 +1,4 @@
-# Dog Party 
+# Static-Comp-1 
 
 This is my Static Comp 1 challenge web design.
 
@@ -37,6 +37,8 @@ I had problems getting the content to stay within the article upon first resizin
 
 ## Turing Comp
 
+![image](https://user-images.githubusercontent.com/43790434/49846641-82b44800-fd89-11e8-86f6-a82483be0c66.png)
 
 ## My Static Comp 1 (full view)
 
+![image](https://user-images.githubusercontent.com/43790434/49846679-b68f6d80-fd89-11e8-9dec-d3db65ead0f2.png)
